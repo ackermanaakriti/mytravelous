@@ -1,0 +1,13 @@
+.navbar {
+    background: linear-gradient(90deg, rgb(151, 104, 104) 0%, rgb(214, 90, 90) 100%);
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  
