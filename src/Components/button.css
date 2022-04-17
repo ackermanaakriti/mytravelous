@@ -7,18 +7,19 @@
 }
 .btn--primary
 {
-    background-color: var(--primary);
+    background-color: greenyellow;
     color: black;
     border:1px solide white;
 
 }
 .btn--outline
 {
-    background-color: transparent;
-    color:white;
+    background-color: royalblue;
+    color:rgb(238, 216, 216);
     padding:8px 20px;
-    background-color: var(--primary);
+    
     transition: all 0.3s ease-out; 
+
 }
 .btn--medium
 {
@@ -32,6 +33,6 @@
 }
 .btn--medium:hover, .btn--large:hover{
     background-color: white;
-    color:gray;
+    color:rgb(131, 28, 45);
     transition: all 0.3s ease-out; 
 }

@@ -1,5 +1,5 @@
-import React,{useState} from 'react';
-import {Link} from 'react-router-dom';
+import React, { useState,useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import Button from './Button.js'
 
@@ -7,56 +7,55 @@ import Button from './Button.js'
 
 
 function Navbar() {
-  const[button,SetButton]=useState(true);
+  const [button, SetButton] = useState(true);
   const [click, Setclick] = useState(false);
-  const handleClick=()=>Setclick(!click);
-  const closeMobileMenu=()=>
-  {
+  const handleClick = () => Setclick(!click);
+  const closeMobileMenu = () => {
     Setclick(false);
   }
-  const showButton=()=>
-  {
-    if(window.innerWidth<=960)
-    {
+  const showButton = () => {
+    if (window.innerWidth <= 960) {
       SetButton(false);
     }
     else
-    SetButton(true);
+      SetButton(true);
   }
-  window.addEventListener('resize', showButton
-  )
+  window.addEventListener('resize', showButton);
+   useEffect(() => {
+    SetButton();
+  }, [])
   return (
     <>
-    <nav className='navbar'>
-      <div className='navbar-conatainer'>
-<Link  to="/home" className='navbar-logo'>Travelous  </Link>
-<div className='menu-logo' onClick={handleClick}>
-  < i className={click? 'fa-solid fa-bars':"fa-solid fa-xmark"}/>
-</div>
-<ul className={click?'nav-menu-active':'nav-menu'}>
-  <li className="nav-item">
-    <Link to='/home'className='nav-link' onClick={closeMobileMenu}/>
-    HOME
-  </li>
-  
-  <li className="nav-item">
-    <Link to='/servives'className='nav-link' onClick={closeMobileMenu}/>
-    SERVICES
-  </li>
+      <nav className='navbar'>
+        <div className='navbar-container'>
+          <Link to="/home" className='navbar-logo'>Travelous  </Link>
+          <div className='menu-logo' onClick={handleClick}>
+            < i className={click ? 'fa-solid fa-bars' : "fa-solid fa-xmark"} />
+          </div>
+          <ul className={click ? 'nav-menu active' : 'nav-menu'}>
+            <li className="nav-item">HOME
+              <Link to='/home' className='nav-links' onClick={closeMobileMenu} />
 
-  <li className="nav-item">
-    <Link to='/product'className='nav-link' onClick={closeMobileMenu}/>
-    PRODUCTS
-  </li>
+            </li>
 
-  <li className="nav-item">
-    <Link to='/sign in'className='nav-link-mobile' onClick={closeMobileMenu}/>
-    SIGN IN
-  </li>
-</ul>
-{button && <Button butonStyle='btn--outline'>Sign Up</Button>}
-</div>
-</nav>
+            <li className="nav-item">SERVICES
+              <Link to='/servives' className='nav-links' onClick={closeMobileMenu} />
+
+            </li>
+
+            <li className="nav-item">PRODUCTS
+              <Link to='/product' className='nav-links' onClick={closeMobileMenu} />
+
+            </li>
+
+            <li className="nav-item"> SIGN IN
+              <Link to='/sign in' className='nav-links-mobile' onClick={closeMobileMenu} />
+
+            </li>
+          </ul>
+          {button && <Button butonStyle='btn--outline'>Sign Up</Button>}
+        </div>
+      </nav>
     </>
   )
 }
