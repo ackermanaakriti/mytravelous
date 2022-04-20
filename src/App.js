@@ -1,11 +1,12 @@
 import react from 'react';
 import './App.css';
 import Body from './Components/Body';
-import Card from './Components/Card';
+
 
 
 import { BrowserRouter as Router , Routes, Route} from 'react-router-dom';
 import Navbar from './Components/Navbar';
+import Cardcontainer from './Cardcontainer';
 
 
 function App() {
@@ -14,7 +15,8 @@ function App() {
    <Router>
      <Navbar/>
      <Body/>
-     <Card/>
+    <Cardcontainer/>
+    
      <Routes>
        
        

@@ -1,8 +1,4 @@
-.card-container
-{
-    height: 90vh;
-    width:100%;  
-}
+
 .heading
 {
     text-align: center;
@@ -28,6 +24,7 @@
   height: 200px;
   width: 100%;
   object-fit: cover;
+  border-radius: 18px;
 }
 .cardinfo
 {

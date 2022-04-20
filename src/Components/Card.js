@@ -4,8 +4,8 @@ import img from './MM.jpeg'
 
 function Card() {
   return (
-    <div className='card-container'>
-        <h1 className='heading'>POPULAR PLACES  </h1>
+   
+        
         <div className= 'cards'>
             <div className='img-container'>
             <img  className='card-img' src={img}/>
@@ -17,7 +17,7 @@ function Card() {
             <button className='btn'>read more</button>
 
         </div>
-    </div>
+   
   )
 }
 
