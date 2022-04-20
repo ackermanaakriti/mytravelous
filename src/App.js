@@ -1,5 +1,6 @@
 import react from 'react';
 import './App.css';
+import Body from './Components/Body';
 
 
 import { BrowserRouter as Router , Routes, Route} from 'react-router-dom';
@@ -10,6 +11,7 @@ function App() {
     <>
    <Router>
      <Navbar/>
+     <Body/>
      <Routes>
        
        

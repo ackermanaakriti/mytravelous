@@ -7,9 +7,10 @@
 }
 .btn--primary
 {
-    background-color: greenyellow;
-    color: black;
+    background-color: rgb(156, 119, 243);
+    color:whitesmoke;
     border:1px solide white;
+    border-radius: 10px;
 
 }
 .btn--outline
@@ -32,7 +33,7 @@
     font-size: 20px;
 }
 .btn--medium:hover, .btn--large:hover{
-    background-color: white;
-    color:rgb(131, 28, 45);
+    background-color:thistle;
+    color:rgb(0, 0, 0);
     transition: all 0.3s ease-out; 
 }

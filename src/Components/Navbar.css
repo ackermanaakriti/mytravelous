@@ -1,11 +1,12 @@
 .navbar
 {
-    background:linear-gradient(90deg, rgb(241, 181, 193), rgb(179, 51, 51));
+    background:linear-gradient(90deg, rgb(129, 84, 180),rgb(141, 7, 74), rgb(109, 54, 172));
     height: 80px;
     display: flex;
     justify-content: center;
     top:0;
     z-index: 999;
+    position: sticky;
    
 }
 .navbar-container
@@ -77,10 +78,10 @@ max-width: 1500px;
       }
       .nav-menu.active
       {
-          background-color: rgb(226, 98, 98);
+          background-color: rgb(180, 75, 98);
           top:40px;
           left:0;
-          transition: all 0.5s ease;
+          transition: all 0.5s ;
       }
       .nav-item {
         text-align: center;
