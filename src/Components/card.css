@@ -1,0 +1,47 @@
+.card-container
+{
+    height: 90vh;
+    width:100%;  
+}
+.heading
+{
+    text-align: center;
+}
+.cards
+{
+   
+    align-items: center;
+    justify-content: center;
+    
+    width:27vw;
+    margin:39px;
+    border-radius: 8px;
+    background: rgb(197, 192, 172);
+   
+}
+.img-container
+{
+    padding:8px;
+}
+.card-img
+{
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+.cardinfo
+{
+    text-align: center;
+}
+
+.btn
+{
+    border:2px solid rgb(125, 125, 207);
+  border-radius: 20px;
+  display:block;
+  margin:0 auto;
+  padding:10px;
+  
+
+
+}
