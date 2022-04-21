@@ -33,23 +33,23 @@ function Navbar() {
             < i className={click ? 'fa-solid fa-bars' : "fa-solid fa-xmark"} />
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
-            <li className="nav-item">HOME
-              <Link to='/home' className='nav-links' onClick={closeMobileMenu} />
+            <li className="nav-item">
+              <Link to='/home' className='nav-links' onClick={closeMobileMenu}>HOME</Link>
 
             </li>
 
-            <li className="nav-item">SERVICES
-              <Link to='/servives' className='nav-links' onClick={closeMobileMenu} />
+            <li className="nav-item">
+              <Link to='/servives' className='nav-links' onClick={closeMobileMenu} >SERVICES</Link>
 
             </li>
 
-            <li className="nav-item">PRODUCTS
-              <Link to='/product' className='nav-links' onClick={closeMobileMenu} />
+            <li className="nav-item">
+              <Link to='/product' className='nav-links' onClick={closeMobileMenu}>PRODUCTS</Link>
 
             </li>
 
-            <li className="nav-item"> SIGN IN
-              <Link to='/sign in' className='nav-links-mobile' onClick={closeMobileMenu} />
+            <li className="nav-item"> 
+              <Link to='/sign in' className='nav-links' onClick={closeMobileMenu} >SIGN IN</Link>
 
             </li>
           </ul>

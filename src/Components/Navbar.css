@@ -24,6 +24,7 @@ max-width: 1500px;
   justify-self: start;
     display: flex;
     align-items: center;
+    font-size: 24px;
 }
 .nav-menu
 {
@@ -37,20 +38,17 @@ max-width: 1500px;
     margin-right: 2rem;
 }
   .nav-item
-  {
+  {cursor: pointer;
       
-      cursor: pointer;
+      margin:10px;
   }
   .nav-links
-  {
-      color:rgb(255, 255, 255);
-      display: flex;
+  {display: flex;
       align-items: center;
       text-decoration: none;
-    
-      cursor: pointer;
+      color:white;
   }
-  .nav-links:hover{
+  .nav-item:hover{
       border-bottom: 4px solid white;
       transition: all 0.2s ease-out;
   }
@@ -58,10 +56,7 @@ max-width: 1500px;
   {
       color:white;
   }
-  .nav-links-mobile
-  {
-      display: none;
-  }
+  
   .menu-logo
   {
       display: none;
@@ -107,4 +102,4 @@ max-width: 1500px;
 
       
  
-  }
+}
