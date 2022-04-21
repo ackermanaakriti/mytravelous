@@ -1,9 +1,11 @@
-.mycards
-{
-    display: inline-flex;
-}
+
 .card-container
 {
     height: 90vh;
     width:100%;  
+}
+.mycards
+{
+    display: flex;
+  
 }
