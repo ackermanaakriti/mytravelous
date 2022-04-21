@@ -1,10 +1,4 @@
-.btn
-{
-    padding:8px 20px;
-    border-radius: 2px;
-    outline: none;
-    cursor: pointer;
-}
+
 .btn--primary
 {
     background-color: rgb(156, 119, 243);
