@@ -35,6 +35,10 @@
     border:none;
     font-size: 18px;
     margin:5px;
+}.footer-inputs > button:hover
+{
+background: rgb(100, 124, 155);
+color:white;
 }
 .footer-links-wrapper
 {
@@ -45,7 +49,8 @@
 }
 .links-heading
 {
-    
+    margin:20px;
+    text-align: center;
 }
 .links-heading a
 {
@@ -60,4 +65,8 @@
 
 {
   color:whitesmoke;  
+}
+.links-heading a:hover{
+    border-bottom: 2px whitesmoke solid ;
+
 }
