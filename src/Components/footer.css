@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width:100%;
 
 }
 .footer-heading >h3
@@ -34,4 +35,29 @@
     border:none;
     font-size: 18px;
     margin:5px;
+}
+.footer-links-wrapper
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:100%;
+}
+.links-heading
+{
+    
+}
+.links-heading a
+{
+   display: flex;
+   flex-direction: column;
+   text-decoration: none;
+   color:whitesmoke;
+   padding:15px;
+   margin:20px;
+}
+.links-heading > h2
+
+{
+  color:whitesmoke;  
 }

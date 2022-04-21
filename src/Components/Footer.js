@@ -18,6 +18,7 @@ function Footer() {
         <div className='footer-links-wrapper'>
             <div className='links-heading'>
                 <h2>About Us</h2>
+                
                 <Link to='/sign in'>How it works?</Link>
                  <Link to='./testonomial'>testonomial</Link>
                  <Link to='./carrer'>Careers</Link>
