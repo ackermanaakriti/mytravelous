@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 function Footer() {
   return (
@@ -16,10 +17,27 @@ function Footer() {
         <div className='footer-links-wrapper'>
             <div className='links-heading'>
                 <h2>About Us</h2>
-
+                <Link to='/sign in'>How it works?</Link>
+                 <Link to='./testonomial'>testonomial</Link>
+                 <Link to='./carrer'>Careers</Link>
+                 <Link to='./terms'> Terms of use</Link>
+            </div>
+            <div className='links-heading'>
+                <h2>Contact Us</h2>
+                <Link to='/sign in'>Contact</Link>
+                 <Link to='./testonomial'>testonomial</Link>
+                 <Link to='./carrer'>Destination</Link>
+                 <Link to='./terms'> Support</Link>
+            </div>
+            <div className='links-heading'>
+                <h2>Socila media</h2>
+                <Link to='/sign in'>Instagram</Link>
+                 <Link to='./testonomial'>Facebook</Link>
+                 <Link to='./carrer'>Youtube</Link>
+                 <Link to='./terms'> Twitter</Link>
             </div>
         </div>
-
+               <section className='footer-logo'>travelous</section>
     </div>
   )
 }
