@@ -1,12 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import './footer.css';
 
 function Footer() {
   return (
     <div className='footer-container'>
         <div className='footer-wrapper'>
             <div className='footer-heading'>
-                <h3>Join the Adventure newsletter to receive our best vacation deals</h3>
+                <h3 className='footer-first-heading'>Join the Adventure newsletter to receive our best vacation deals</h3>
                 <p>You can unsubscribe at any time</p>
             </div>
             <div className='footer-inputs'>
