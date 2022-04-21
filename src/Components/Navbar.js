@@ -18,8 +18,8 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <div className='navbar-container'>
-          <Link to="/home" className='navbar-logo'> <img   className='nav-img' src={logo}/>ravelous  </Link>
+        <div className='navbar-container'><img   className='nav-img' src={logo}/>
+          <Link to="/home" className='navbar-logo'> Travelous  </Link>
           <div className='menu-logo' onClick={handleClick}>
             < i className={click ? 'fa-solid fa-bars' : "fa-solid fa-xmark"} />
           </div>

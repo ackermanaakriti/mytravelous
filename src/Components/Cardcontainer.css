@@ -1,4 +1,7 @@
-
+.heading
+{
+    text-align: center;
+}
 .card-container
 {
     height: 90vh;
@@ -7,5 +10,6 @@
 .mycards
 {
     display: flex;
+    width: 100%;
   
 }

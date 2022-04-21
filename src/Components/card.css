@@ -1,10 +1,12 @@
 
-.heading
+
+.mycard-container
 {
-    text-align: center;
+    display: flex;
 }
 .cards
 {
+   
     align-items: center;
     justify-content: center;
     
