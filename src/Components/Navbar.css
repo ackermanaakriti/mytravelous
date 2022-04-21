@@ -17,6 +17,12 @@ height: 80px;
 max-width: 1500px;
 width:100%;
 }
+.nav-img
+{
+    height: 10vh;
+    object-fit: cover;
+    
+}
 .navbar-logo
 {
     color:white;
@@ -26,17 +32,21 @@ width:100%;
     display: flex;
     align-items: center;
     font-size: 24px;
+    margin-left:5rem;
+    font-weight: bolder;
+
 }
 .nav-menu
 {
     display: grid;
-    grid-template-columns: repeat(4,auto);
+    grid-template-columns: repeat(5,auto);
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width:60vw;
+    width:100%;
     justify-content: end;
     margin-right: 2rem;
+    
 }
   .nav-item
   {cursor: pointer;

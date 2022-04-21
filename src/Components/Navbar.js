@@ -1,7 +1,7 @@
 import React, { useState,useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import Button from './Button.js'
+import logo from './travel.jpg'
 
 
 
@@ -19,7 +19,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to="/home" className='navbar-logo'>Travelous  </Link>
+          <Link to="/home" className='navbar-logo'> <img   className='nav-img' src={logo}/>ravelous  </Link>
           <div className='menu-logo' onClick={handleClick}>
             < i className={click ? 'fa-solid fa-bars' : "fa-solid fa-xmark"} />
           </div>
