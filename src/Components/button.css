@@ -1,4 +1,8 @@
 
+.body-container
+{
+    height: 100%;
+}
 .btn--primary
 {
     background-color: rgb(156, 119, 243);
@@ -30,4 +34,13 @@
     background-color:thistle;
     color:rgb(0, 0, 0);
     transition: all 0.3s ease-out; 
+}
+@media screen and (max-width:800px)
+{
+.body-container
+{
+    height: 100%;
+    width:100%;
+}
+
 }

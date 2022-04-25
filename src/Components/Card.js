@@ -15,7 +15,7 @@ function Card(props) {
             <h4>{props.tittle} </h4>
             <p>{props.Parag}</p>
             </div>
-            <button className='btn'>read more</button>
+            <button className='btn'>Read more</button>
 
         </div>
         </div>

@@ -13,3 +13,46 @@
     width: 100%;
   
 }
+@media screen and (max-width:690px)
+{
+    .card-container
+    {
+        height: 100%;
+        width:100%
+    }
+   .mycards
+   {
+       display: block;
+       width: 100%;
+       
+   }
+   
+}
+@media screen and (max-width:900px)
+{
+.card-container
+{
+    height: 100%;
+    width:100%;
+    
+}
+.mycards
+{
+    height: 100%;
+    width:100%
+}
+}
+@media screen and (max-width:1200px)
+{
+    .card-container
+{
+    height: 100%;
+    width:100%;
+
+}
+.mycards
+{
+    height: 100%;
+    width:100%
+}
+}

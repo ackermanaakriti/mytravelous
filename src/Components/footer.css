@@ -70,3 +70,38 @@ color:white;
     border-bottom: 2px whitesmoke solid ;
 
 }
+@media screen and (max-width:760px)
+{
+.footer-container
+{
+    height: 100%;
+    width:100%;
+  
+}
+.footer-heading
+{
+    text-align: center;
+}
+}
+@media screen and (max-width:800px)
+{
+.footer-container
+{
+    height: 100%;
+   
+}
+.links-heading
+{
+    
+    
+    width:100%;
+}
+}
+@media screen and (max-width:400px)
+{
+    .footer-container
+    {
+        height: 100%;
+        width:100%;
+    }
+}

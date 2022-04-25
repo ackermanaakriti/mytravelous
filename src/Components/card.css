@@ -6,14 +6,15 @@
 }
 .cards
 {
-   
     align-items: center;
     justify-content: center;
-    
     width:27vw;
     margin:39px;
     border-radius: 8px;
-    background: rgb(197, 192, 172);
+    background: rgb(238, 232, 213);
+}
+.cards:hover{
+    box-shadow: 2px rgb(158, 133, 133);
 }
 .img-container
 {
@@ -30,12 +31,34 @@
 {
     text-align: center;
 }
-
 .btn
 {
-    border:2px solid rgb(125, 125, 207);
+    border:2px solid rgb(130, 143, 145);
   border-radius: 20px;
   display:block;
   margin:0 auto;
   padding:10px;
+  margin-bottom:5px;
+}
+.btn:hover{
+    background: rgb(130, 143, 145);
+    color:white;
+    font-size:15px;
+    border:2px solid white;
+}
+@media screen and (max-width:690px)
+{
+   .cards
+   {
+     width: 100%;  
+     height: 100%;
+   }
+
+}
+@media screen and (max-width:900px)
+{
+    .cards{
+        width: 100%;
+    
+    }
 }
